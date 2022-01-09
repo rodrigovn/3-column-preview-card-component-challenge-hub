@@ -1,0 +1,68 @@
+body{
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.container div {
+	margin: 0 auto;
+}
+.box{
+	padding: 75px 115px 25px 115px;
+	width: 75%;
+	text-align: left;
+}
+img{
+	margin-bottom: 35px;
+}
+h1{
+	font-family: 'Bebas Neue', cursive;
+	color: hsl(0, 0%, 95%);
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-bottom: 75px;
+}
+.sedans{
+	background-color: hsl(31, 77%, 52%);
+	padding: 21px 30px 50px 21px;
+	min-width: 200px;
+}
+
+.suvs{
+	background-color: hsl(184, 100%, 22%);
+	padding: 21px 30px 50px 21px;
+	min-width: 200px;
+}
+.luxury{
+	background-color: hsl(179, 100%, 13%);
+	padding: 21px 30px 50px 21px;
+	min-width: 200px;
+}
+.nopadding {
+   padding: 0;
+   margin: 0;
+}
+button {
+  cursor: pointer;	
+  padding: 15px 35px;
+  text-decoration: none;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+}	
+.text-button-sedans{
+	font-family: 'Open Sans', sans-serif;
+	color: hsl(31, 77%, 52%);
+}
+.text-button-suvs{
+	font-family: 'Open Sans', sans-serif;
+	color: hsl(184, 100%, 22%);
+}
+.text-button-luxury{
+	font-family: 'Open Sans', sans-serif;
+	color: hsl(179, 100%, 13%);
+}

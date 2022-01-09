@@ -8,29 +8,49 @@
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <div class="box">
+        <div class="row">
+          <div class="col-sm nopadding">
+            <div class="sedans">
+              <img src="images/icon-sedans.svg">
+              <h1>Sedans</h1>
+              <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+              <button type="button"><span class="text-button-sedans">Learn More</span></button>
+            </div>
+          </div>
+          <div class="col-sm nopadding">
+            <div class="suvs">
+              <img src="images/icon-suvs.svg">
+              <h1>SUVs</h1>
+              <p> Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+              <button type="button"><span class="text-button-suvs">Learn More</span></button>
+            </div>
+          </div>
+          <div class="col-sm nopadding">
+            <div class="luxury">
+              <img src="images/icon-luxury.svg">
+              <h1>Luxury</h1>
+              <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+              <button type="button"><span class="text-button-luxury">Learn More</span></button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
   
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
-
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/rodrigovn">Rodrigo Vieira</a>.
   </div>
 </body>
 </html>
